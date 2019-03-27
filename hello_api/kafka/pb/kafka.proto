@@ -1,0 +1,62 @@
+syntax = "proto3";
+package kafka100;
+
+
+//电梯设备更新头数据
+message HeadData
+{
+    bytes       obj;      //电梯设备信息
+    int32       guid;     //设备唯一标示
+    string      code;     //设备编号
+    int32       type;     //电梯设备类型
+    uint64      sendDate  //发送时间
+}
+
+message ObjData
+{
+    int32       guid;     //主键
+    string      equipNo;  //设备编码
+    string      equipType;  //设备类型编码（数据字典）
+    string      equipName;  //设备名称
+    string      softVersion;  //软件版本号
+    string      equipMac;  //设备mac地址
+    string      equipIp;  //设备Ip地址
+    string      makeCompany;  //产家
+    string      equipModel;  //设备型号
+    uint64      createDate;  //创建时间
+    string      equipPort;  //端口号
+    string      hardwareId;  //硬件ID
+    string      str1;  //扩展属性1
+    uint64      updateTime;  //更新时间
+    string      equipIndex;  //设备索引
+    string      monitor;  //是否监控网络诊断 1 监控 0 不监控
+    string      socket;  //是否需要进行socket连接 1 连接 0 不连接
+    int32       dirction;  //方向，方位
+    string      videoInterVersion;  //可视对讲版本号
+    string      buildDisplay;  //固件版本号
+    string      equipTypeName;  //设备类型名称
+    string      regiName;  //省-市-区-街道
+    string      nbhdName;  //小区名称
+    string      liftName;  //电梯名字
+    string      liftNo;  //电梯编号
+    string      liftType;  //电梯类型
+    string      generation;  //设备代数
+    string      provinceCode;  //省
+    string      cityCode;  //市
+    string      townCode;  //城镇
+    string      streetCode;  //街道
+    string      nbhdGuid;  //小区id
+    string      floorNo;  //楼号
+    string      registerCode;  //电梯注册编码
+    int32       liftGuid;  //电梯id
+    []liftsData    lifts;  //电梯信息
+}
+
+message liftsData
+{
+    int32       guid; //主键
+    string      liftName; //电梯名字
+    string      liftNo;   //电梯编号
+    string      generation; // 设备代数
+    string      registercode; //电梯注册编码
+}

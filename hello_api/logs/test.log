@@ -1,0 +1,15 @@
+2019/03/22 18:00:23.640 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/22 18:01:01.503 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/22 18:02:16.617 [I] [proc.go:195]  DDDDDDDDDDDDDDDDDDDDDDDd
+2019/03/22 18:02:16.707 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/22 18:03:18.907 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/22 18:05:49.969 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/22 18:08:42.506 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/25 14:12:42.339 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/25 15:57:09.490 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/25 16:18:11.186 [I] [asm_amd64.s:2337]  brokers:[]; topics:[bp_yt_update_topic];  kafka basic brokers 
+2019/03/25 16:18:11.197 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/25 16:18:11.963 [E] [asm_amd64.s:2337]  create kafka consumer failed! topics:[bp_yt_update_topic]; error:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2019/03/25 16:18:11.963 [I] [asm_amd64.s:2337]  connet successful!
+2019/03/25 16:18:54.645 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/03/26 11:17:46.772 [I] [asm_amd64.s:2337]  http server Running on http://:8080
